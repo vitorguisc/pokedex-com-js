@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="icon" href="./favicons/pokemon-go.png">
     <link rel="stylesheet" href="./css/style.css">
     
@@ -12,19 +12,28 @@
 <body>
    <main>
     <img src="https://media.tenor.com/74l5y1hUdtwAAAAj/pokemon.gif" alt="pokemon" class="pokemon_image">
+
     <h1 class="pokemon_data">
-        <span class = "pokemon_number">x</span>
-        <span class="pokemon_namee">Pikachu</span>
+        <span class = "pokemon_number">x</span> -
+        <span class="pokemon_name">Pikachu</span>
     </h1>
+
     <form class="form">
         <input
             type="search"
             class="input_search"
-            placeholder="Name ou Number"
+            placeholder="Name or Number"
             required
         />
     </form>
+
+    <div class="buttons">
+        <button class="button btn-prev">Prev &lt;</button>
+        <button class="button btn-next">Next &gt;</button>
+    </div>
+
     <img src="./images/pokedex.png" alt="pokedex" class="pokedex">
+
    </main> 
 </body>
 </html>
